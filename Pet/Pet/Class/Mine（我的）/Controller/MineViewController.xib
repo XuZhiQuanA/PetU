@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MineViewController">
+            <connections>
+                <outlet property="view" destination="k8G-Mz-MzH" id="fax-O2-pNc"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="k8G-Mz-MzH">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sj1-v3-9kI">
+                    <rect key="frame" x="0.0" y="161" width="414" height="760"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jId-w5-8L0">
+                            <rect key="frame" x="0.0" y="130" width="414" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="7jc-Ji-wkR"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="Mine_4"/>
+                            <connections>
+                                <action selector="shiming:" destination="-1" eventType="touchUpInside" id="7jx-iF-TIx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmh-Mg-NF8">
+                            <rect key="frame" x="0.0" y="191" width="414" height="54"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="54" id="5JO-8q-oCz"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="Mine_5"/>
+                        </button>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MpY-e6-iL9">
+                            <rect key="frame" x="348" y="204" width="49" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </switch>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mV-f5-GEb">
+                            <rect key="frame" x="0.0" y="278" width="414" height="55"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="55" id="HaW-SE-e56"/>
+                            </constraints>
+                            <state key="normal" title="Button" image="Mine_6"/>
+                            <connections>
+                                <action selector="resigin:" destination="-1" eventType="touchUpInside" id="YEQ-HW-4w6"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94499540329999998" green="0.94515722989999995" blue="0.94498521089999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="6mV-f5-GEb" secondAttribute="trailing" id="05O-Nu-PYV"/>
+                        <constraint firstItem="Dmh-Mg-NF8" firstAttribute="leading" secondItem="Sj1-v3-9kI" secondAttribute="leading" id="2u2-Sx-n2Z"/>
+                        <constraint firstAttribute="height" constant="760" id="BhZ-Ra-g7H"/>
+                        <constraint firstItem="jId-w5-8L0" firstAttribute="top" secondItem="Sj1-v3-9kI" secondAttribute="top" constant="130" id="Hbc-br-L1r"/>
+                        <constraint firstItem="Dmh-Mg-NF8" firstAttribute="top" secondItem="jId-w5-8L0" secondAttribute="bottom" constant="7" id="KLs-E7-76y"/>
+                        <constraint firstAttribute="trailing" secondItem="Dmh-Mg-NF8" secondAttribute="trailing" id="LPY-yf-Cbu"/>
+                        <constraint firstItem="6mV-f5-GEb" firstAttribute="leading" secondItem="Sj1-v3-9kI" secondAttribute="leading" id="MbW-2o-8zs"/>
+                        <constraint firstItem="jId-w5-8L0" firstAttribute="leading" secondItem="Sj1-v3-9kI" secondAttribute="leading" id="Rn7-8y-dcM"/>
+                        <constraint firstItem="6mV-f5-GEb" firstAttribute="top" secondItem="Dmh-Mg-NF8" secondAttribute="bottom" constant="33" id="iXY-Io-ehm"/>
+                        <constraint firstAttribute="trailing" secondItem="jId-w5-8L0" secondAttribute="trailing" id="pMq-vf-P6J"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mine_1" translatesAutoresizingMaskIntoConstraints="NO" id="jHS-Yb-Q5D">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="184"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="184" id="o5s-pD-YRq"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mine_2" translatesAutoresizingMaskIntoConstraints="NO" id="LUs-Xj-ye3">
+                    <rect key="frame" x="37" y="125" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="9gb-fT-tGr"/>
+                        <constraint firstAttribute="height" constant="100" id="GJv-bz-2qw"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="宠小U" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RyN-pY-c6a">
+                    <rect key="frame" x="140" y="160" width="47" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="您好，铲屎官" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9cH-ai-Bsu">
+                    <rect key="frame" x="140" y="192" width="104" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W2Z-we-sFJ">
+                    <rect key="frame" x="0.0" y="230" width="414" height="54"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="54" id="zF3-lR-GQX"/>
+                    </constraints>
+                    <state key="normal" title="Button" image="Mine_3"/>
+                    <connections>
+                        <action selector="personalAction:" destination="-1" eventType="touchUpInside" id="knm-Pe-Bah"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="fg0-7C-nSm" firstAttribute="trailing" secondItem="W2Z-we-sFJ" secondAttribute="trailing" id="2Pb-YY-SxK"/>
+                <constraint firstItem="W2Z-we-sFJ" firstAttribute="leading" secondItem="fg0-7C-nSm" secondAttribute="leading" id="2fM-T7-xfD"/>
+                <constraint firstItem="jHS-Yb-Q5D" firstAttribute="leading" secondItem="fg0-7C-nSm" secondAttribute="leading" id="2zg-MR-TwS"/>
+                <constraint firstItem="LUs-Xj-ye3" firstAttribute="top" secondItem="k8G-Mz-MzH" secondAttribute="top" constant="125" id="4Bk-bc-8Bu"/>
+                <constraint firstItem="Sj1-v3-9kI" firstAttribute="top" secondItem="k8G-Mz-MzH" secondAttribute="bottom" constant="-735" id="55z-ce-2W3"/>
+                <constraint firstItem="W2Z-we-sFJ" firstAttribute="top" secondItem="k8G-Mz-MzH" secondAttribute="top" constant="230" id="6fw-JT-pJR"/>
+                <constraint firstItem="fg0-7C-nSm" firstAttribute="trailing" secondItem="jHS-Yb-Q5D" secondAttribute="trailing" id="Jgf-fO-yzj"/>
+                <constraint firstItem="fg0-7C-nSm" firstAttribute="trailing" secondItem="Sj1-v3-9kI" secondAttribute="trailing" id="JvD-nG-ITz"/>
+                <constraint firstItem="Sj1-v3-9kI" firstAttribute="leading" secondItem="fg0-7C-nSm" secondAttribute="leading" id="cVY-Fo-bJN"/>
+                <constraint firstItem="jHS-Yb-Q5D" firstAttribute="top" secondItem="k8G-Mz-MzH" secondAttribute="top" id="dOc-D8-hIc"/>
+                <constraint firstItem="LUs-Xj-ye3" firstAttribute="leading" secondItem="fg0-7C-nSm" secondAttribute="leading" constant="37" id="g9h-sl-S4R"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fg0-7C-nSm"/>
+            <point key="canvasLocation" x="765" y="-64"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Mine_1" width="308" height="150"/>
+        <image name="Mine_2" width="156" height="152"/>
+        <image name="Mine_3" width="1080" height="138"/>
+        <image name="Mine_4" width="1080" height="143"/>
+        <image name="Mine_5" width="1080" height="141"/>
+        <image name="Mine_6" width="1080" height="143"/>
+    </resources>
+</document>
